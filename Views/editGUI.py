@@ -35,7 +35,7 @@ class EditGUI():
     
     def setupWindow(self):
         self.rootWindow = tkinter.Tk()
-        self.rootWindow.title('Create new Admin')
+        self.rootWindow.title('Edit Window')
         self.rootWindow.geometry('350x530')
         self.rootWindow.configure(background=Constants().windowBackgroundColor)
         self.rootWindow.resizable(False, False)
